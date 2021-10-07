@@ -106,6 +106,9 @@ class Manager(base.Base, PeriodicTasks):
         pass
 
     def service_version(self, context):
+        """
+        Service Version...demo comment
+        """
         return version.version_string()
 
     def service_config(self, context):
